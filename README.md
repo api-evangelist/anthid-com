@@ -65,4 +65,114 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 anthid-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://anthid.com/
+
+**Areas:** Company
+
+## anthid-com on APIs.io
+
+Everything profiled for anthid-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/anthid-com/](https://apis.io/providers/anthid-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Anthid API](https://apis.io/apis/anthid-com/anthid-api/) — Trading infrastructure API providing controls, accounts, ledger, organizations, intents, billing, instruments, connections.
+- [anthid-com Account Manual Controls API](https://apis.io/apis/anthid-com/anthid-com-account-manual-controls-api/) — Account-level manual control configuration
+- [anthid-com Account Risk Controls API](https://apis.io/apis/anthid-com/anthid-com-account-risk-controls-api/) — Account-level risk-limit control configuration
+- [anthid-com Account Time Controls API](https://apis.io/apis/anthid-com/anthid-com-account-time-controls-api/) — Account-level time-window control configuration
+- [anthid-com Control Evaluation API](https://apis.io/apis/anthid-com/anthid-com-control-evaluation-api/) — Effective control-state evaluation
+- [anthid-com Effective Controls API](https://apis.io/apis/anthid-com/anthid-com-effective-controls-api/) — Read manual, risk, and time controls grouped by symbol
+- [anthid-com Organization Controls API](https://apis.io/apis/anthid-com/anthid-com-organization-controls-api/) — Organization-level control configuration
+- [anthid-com Symbol Manual Controls API](https://apis.io/apis/anthid-com/anthid-com-symbol-manual-controls-api/) — Symbol-level manual control configuration
+- [anthid-com Symbol Risk Controls API](https://apis.io/apis/anthid-com/anthid-com-symbol-risk-controls-api/) — Symbol-level risk-limit control configuration
+- [anthid-com Symbol Time Controls API](https://apis.io/apis/anthid-com/anthid-com-symbol-time-controls-api/) — Symbol-level time-window control configuration
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Anthid Com Agentic Access](https://apis.io/agentic-access/anthid-com/anthid-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Anthid Com Context](https://apis.io/jsonld/anthid-com/anthid-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [anthid-com API Rules](https://apis.io/rules/anthid-com/anthid-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Anthid Com Authentication](https://apis.io/security/anthid-com/anthid-com-authentication/)
+- [Anthid Com Domain Security](https://apis.io/security/anthid-com/anthid-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://anthid.com/)
+- [Getting started](https://docs.anthid.com/pages/intro/quickstart)
+- [API reference](https://docs.anthid.com/)
+
+## API Evangelist rating
+
+**Kin Score 36.1** — thin · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 57.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 58.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/anthid-com/](https://apis.io/providers/anthid-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for anthid-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/anthid-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
